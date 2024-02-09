@@ -1,0 +1,156 @@
+@use "./_reast.scss";
+@use "./_family.scss";
+@use "./_opject.scss";
+body{
+   
+     direction: ltr;
+     text-transform: capitalize;
+     background-image: url(../images/chameleon-veiled-ready-catch-prey-chameleon-veiled-walking-branch-headanimal-closeup.jpg);
+}
+main {
+     .hero{
+          
+         
+               header{
+                     
+                    nav{ 
+                         width: 100%;
+                         height: 15vh;
+                         justify-content: center;
+                         flex-wrap: nowrap;
+                         
+                         ul{
+                              width: 100%;
+                              height: 14vh;
+                              flex-direction: row;
+                             justify-content: center;
+                             align-items: center;
+                             .loco{
+                              
+                              margin-right: 45%;
+                              justify-content: center;
+                         }
+                             li{
+                                   width: 13%;
+                                   height:7vh ;
+                                   display: flex;
+                                   align-items: center;
+                                   margin: 10px;
+                                   
+                                   
+                                   
+                               a{
+
+                                   text-decoration: none;
+                                   font-family: bold-two;
+                                   font-size: 17px;
+                                   color: white;
+                                 
+                               }
+                               a:hover{
+                                   color: chartreuse;
+                               }
+                             }
+                         }
+                    }
+               }
+     }
+}
+main{
+     .content{
+         
+          
+          .p-one{
+               width: 35%;
+               height: 8vh;
+               position: absolute;
+               top: 42%;
+               left: 2%;
+               flex-direction: column;
+               justify-content: flex-end;
+               align-items: flex-start;
+               font-family: medium;
+               font-size: 19px;
+               color: white;
+              
+
+          }
+          .p-two{
+               width: 80%;
+               height: 25vh;
+               position: absolute;
+               top: 50%;
+               justify-content: center;
+               align-items: flex-start;
+               flex-direction: column;
+               padding-left: 20px;
+               p{
+                    color: white;
+                    font-family: bold;
+                    font-weight: 500;
+                    font-size: 50px;
+                    text-align: left;
+                    line-height: 59px;
+                    word-spacing: 12px;
+
+               }
+          }
+          .sb{
+               width: 50%;
+               height: 8vh;
+               position: absolute;
+               top: 75.5%;
+               left: 1%;
+               justify-content:flex-start ;
+               align-items: center;
+               .search{
+                    width: 40%;
+                    height:7vh;
+                    background-color: white;
+                    margin-left: 5px;
+                    align-items: center;
+                    justify-content: flex-start;
+                    border-radius: 32%;
+                    p{
+                         margin-left: 13px;
+                         color: rgba(65, 59, 59, 0.842);
+                         font-family: medium;
+                         font-size: 16px;
+                    }
+                    
+               }
+               button{
+                    width: 12%;
+                    height: 6vh;
+                    margin-left: 10px;
+                    border-radius: 45%;
+                    font-family: medium;
+                    font-size: 16px;
+                    background-color: rgba(14, 158, 21, 0.63);
+                    color: white;
+               }
+               button:hover{
+                    background-color: black;
+               }
+              
+               
+          }
+         
+     }
+     footer{
+          width: 100%;
+          height: 8vh;
+          color: white;
+          position: absolute;
+          top: 91%;
+          justify-content: flex-start;
+          align-items: flex-end;
+          font-family: medium;
+          font-size: 18px;
+          p:first-child{
+               margin-left: 2%;
+               margin-right: 82%;
+          }
+          
+     }    
+}
